@@ -151,7 +151,7 @@ function installMailtrain {
     local wwwHost="$4"
     local wwwProxy="$5"
 
-    mysqlPassword=`BcrspxBDLK99NAud`
+    # mysqlPassword=`BcrspxBDLK99NAud"
     mysqlRoPassword=`pwgen 12 -1`
     
     # # Setup MySQL user for Mailtrain
